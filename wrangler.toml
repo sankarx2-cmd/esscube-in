@@ -1,0 +1,6 @@
+name = "esscube-in"
+compatibility_date = "2026-03-22"
+
+[assets]
+directory = "."
+not_found_handling = "404-page"
