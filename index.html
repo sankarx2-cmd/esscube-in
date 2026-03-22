@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | Esscube Strategy Consultants</title>
+<meta name="description" content="Esscube Strategy Consultants Private Limited advises boards and leadership teams on compensation, performance, retention, culture, executive pay and people risk.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#c41414">
+<link rel="canonical" href="https://esscube.in/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Esscube Strategy Consultants">
+<meta property="og:title" content="Esscube Strategy Consultants">
+<meta property="og:description" content="People strategy advisory with analytical rigour across compensation, governance, retention and workplace culture.">
+<meta property="og:url" content="https://esscube.in/">
+<meta property="og:image" content="Esscube_Logo.png">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Esscube Strategy Consultants">
+<meta name="twitter:description" content="People strategy advisory with analytical rigour across compensation, governance, retention and workplace culture.">
+<meta name="twitter:image" content="Esscube_Logo.png">
+<link rel="icon" href="Esscube_Logo.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Esscube Strategy Consultants Private Limited",
+  "url": "https://esscube.in/",
+  "logo": "Esscube_Logo.png",
+  "telephone": "+91 99699 29000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2nd Floor, Building #235, 13th Cross Road, Indiranagar 2nd Stage, Hoysala Nagar",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560038",
+    "addressCountry": "IN"
+  },
+  "subOrganization": {
+    "@type": "Organization",
+    "name": "Trusted Workplace"
+  }
+}
+</script>
+<style>
+/* ═══════════════════════════════════════════ */
+/* RESET & VARIABLES                          */
+/* ═══════════════════════════════════════════ */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --red: #C41414;
+  --red-dark: #9E1010;
+  --red-light: #F5E6E6;
+  --black: #111111;
+  --gray-900: #1a1a1a;
+  --gray-800: #2d2d2d;
+  --gray-700: #444;
+  --gray-600: #555;
+  --gray-500: #777;
+  --gray-400: #999;
+  --gray-300: #bbb;
+  --gray-200: #ddd;
+  --gray-100: #eee;
+  --gray-50: #f7f7f7;
+  --white: #ffffff;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, sans-serif;
+  --max-w: 1200px;
+  --nav-h: 72px;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  color: var(--gray-800);
+  background: var(--white);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+/* ═══════════════════════════════════════════ */
+/* UTILITY                                    */
+/* ═══════════════════════════════════════════ */
+.container { max-width: var(--max-w); margin: 0 auto; padding: 0 48px; }
+@media (max-width: 768px) { .container { padding: 0 24px; } }
+
+/* Fade-in on scroll */
+.reveal {
+  opacity: 0; transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* ═══════════════════════════════════════════ */
+/* NAVIGATION                                 */
+/* ═══════════════════════════════════════════ */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  height: var(--nav-h);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 48px;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  transition: box-shadow 0.3s;
+}
+.nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.06); }
+.nav-brand { display: flex; align-items: center; }
+.nav-logo { height: 38px; cursor: pointer; }
+.nav-links { display: flex; align-items: center; gap: 40px; }
+.nav-links a {
+  font-size: 13px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--gray-600); transition: color 0.25s; position: relative;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--red); }
+.nav-links a.active::after {
+  content:''; position:absolute; bottom:-4px; left:0; right:0;
+  height:2px; background:var(--red);
+}
+.nav-cta {
+  background: var(--red) !important; color: var(--white) !important;
+  padding: 10px 26px !important; border-radius: 6px;
+  letter-spacing: 0.08em !important; font-size: 12px !important;
+  transition: background 0.25s !important;
+}
+.nav-cta:hover { background: var(--red-dark) !important; }
+.nav-cta::after { display: none !important; }
+
+/* Mobile menu */
+.hamburger {
+  display: none; cursor: pointer; flex-direction: column; gap: 5px;
+  background: transparent; border: 0; padding: 0;
+}
+.hamburger span {
+  width: 24px; height: 2px; background: var(--gray-800);
+  transition: all 0.3s;
+}
+@media (max-width: 900px) {
+  .nav { padding: 0 24px; }
+  .hamburger { display: flex; }
+  .nav-links {
+    position: fixed; top: var(--nav-h); left: 0; right: 0;
+    background: var(--white); flex-direction: column; padding: 32px;
+    gap: 24px; border-bottom: 1px solid var(--gray-200);
+    transform: translateY(-120%); transition: transform 0.35s ease;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  }
+  .nav-links.open { transform: translateY(0); }
+}
+
+/* ═══════════════════════════════════════════ */
+/* PAGES                                      */
+/* ═══════════════════════════════════════════ */
+.page { display: none; }
+.page.active { display: block; }
+
+/* ═══════════════════════════════════════════ */
+/* HERO                                       */
+/* ═══════════════════════════════════════════ */
+.hero {
+  min-height: 100vh; display: flex; flex-direction: column;
+  justify-content: center; position: relative; overflow: hidden;
+  padding-top: var(--nav-h);
+}
+.hero-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; }
+.hero-bg svg, .hero-bg canvas { width: 100%; height: 100%; }
+.hero-content {
+  position: relative; z-index: 5;
+  max-width: 800px; padding: 80px 48px 100px;
+}
+@media (max-width: 768px) { .hero-content { padding: 60px 24px 80px; } }
+.hero-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--red); margin-bottom: 20px;
+  display: flex; align-items: center; gap: 12px;
+}
+.hero-eyebrow::before {
+  content:''; width: 32px; height: 2px; background: var(--red);
+}
+.hero h1 {
+  font-family: var(--font-display); font-size: clamp(40px, 5.5vw, 64px);
+  font-weight: 500; line-height: 1.12; color: var(--gray-900);
+  margin-bottom: 24px; letter-spacing: -0.02em;
+}
+.hero h1 em {
+  font-style: italic; color: var(--red);
+}
+.hero-desc {
+  font-size: 18px; line-height: 1.75; color: var(--gray-500);
+  max-width: 560px; margin-bottom: 40px;
+}
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--red); color: var(--white);
+  padding: 16px 36px; border-radius: 8px;
+  font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  transition: all 0.3s; border: none; cursor: pointer;
+  font-family: var(--font-body);
+}
+.btn-primary:hover { background: var(--red-dark); transform: translateY(-2px); }
+.btn-primary svg { width: 16px; height: 16px; }
+.btn-outline {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: transparent; color: var(--gray-800);
+  padding: 16px 36px; border-radius: 8px; border: 1.5px solid var(--gray-200);
+  font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  transition: all 0.3s; cursor: pointer; font-family: var(--font-body);
+}
+.btn-outline:hover { border-color: var(--red); color: var(--red); }
+
+/* ═══════════════════════════════════════════ */
+/* SECTION COMMON                             */
+/* ═══════════════════════════════════════════ */
+section { padding: 100px 0; }
+section.bg-light { background: var(--gray-50); }
+.section-eyebrow {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--red); margin-bottom: 16px;
+  display: flex; align-items: center; gap: 12px;
+}
+.section-eyebrow::before { content:''; width: 24px; height: 2px; background: var(--red); }
+.section-title {
+  font-family: var(--font-display); font-size: clamp(32px, 4vw, 48px);
+  font-weight: 500; line-height: 1.15; color: var(--gray-900);
+  margin-bottom: 20px; letter-spacing: -0.015em;
+}
+.section-subtitle {
+  font-size: 17px; color: var(--gray-500); max-width: 600px;
+  line-height: 1.75; margin-bottom: 56px;
+}
+.red-line {
+  width: 48px; height: 3px; background: var(--red);
+  margin-bottom: 20px;
+}
+
+/* ═══════════════════════════════════════════ */
+/* ABOUT — INTRO                              */
+/* ═══════════════════════════════════════════ */
+.about-intro {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+  align-items: start;
+}
+@media (max-width: 900px) { .about-intro { grid-template-columns: 1fr; gap: 40px; } }
+.about-intro p {
+  font-size: 16px; line-height: 1.85; color: var(--gray-600); margin-bottom: 20px;
+}
+.about-intro p:first-of-type::first-line { font-weight: 600; color: var(--gray-800); }
+.stat-row {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 48px;
+}
+.stat-item { border-left: 3px solid var(--red); padding-left: 20px; }
+.stat-num {
+  font-family: var(--font-display); font-size: 36px; font-weight: 600;
+  color: var(--gray-900); line-height: 1;
+}
+.stat-label { font-size: 13px; color: var(--gray-500); margin-top: 6px; }
+
+/* ═══════════════════════════════════════════ */
+/* ABOUT — PHILOSOPHY                         */
+/* ═══════════════════════════════════════════ */
+.philosophy-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px;
+}
+@media (max-width: 900px) { .philosophy-grid { grid-template-columns: 1fr; } }
+.phil-card {
+  padding: 40px 32px; border: 1px solid var(--gray-100);
+  border-radius: 12px; transition: all 0.35s;
+  background: var(--white); position: relative; overflow: hidden;
+}
+.phil-card:hover {
+  border-color: var(--red); transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(196,20,20,0.06);
+}
+.phil-card::before {
+  content:''; position: absolute; top: 0; left: 0; right: 0;
+  height: 3px; background: var(--red); transform: scaleX(0);
+  transition: transform 0.35s; transform-origin: left;
+}
+.phil-card:hover::before { transform: scaleX(1); }
+.phil-num {
+  font-family: var(--font-display); font-size: 48px; font-weight: 600;
+  color: var(--gray-100); line-height: 1; margin-bottom: 20px;
+}
+.phil-card h3 {
+  font-family: var(--font-display); font-size: 22px; font-weight: 600;
+  color: var(--gray-900); margin-bottom: 12px;
+}
+.phil-card p { font-size: 14px; color: var(--gray-500); line-height: 1.8; }
+
+/* ═══════════════════════════════════════════ */
+/* ABOUT — CAPABILITIES                       */
+/* ═══════════════════════════════════════════ */
+.cap-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px;
+  background: var(--gray-200); border: 1px solid var(--gray-200); border-radius: 12px;
+  overflow: hidden;
+}
+@media (max-width: 768px) { .cap-grid { grid-template-columns: 1fr; } }
+.cap-item {
+  padding: 36px 40px; background: var(--white); position: relative;
+  transition: background 0.3s;
+}
+.cap-item:hover { background: var(--gray-50); }
+.cap-item h4 {
+  font-size: 16px; font-weight: 600; color: var(--gray-900);
+  margin-bottom: 8px; display: flex; align-items: center; gap: 10px;
+}
+.cap-item h4::before {
+  content:''; width: 8px; height: 8px; background: var(--red);
+  border-radius: 2px; flex-shrink: 0;
+}
+.cap-item p { font-size: 14px; color: var(--gray-500); line-height: 1.75; padding-left: 18px; }
+
+/* ═══════════════════════════════════════════ */
+/* ABOUT — TRUSTED WORKPLACE                  */
+/* ═══════════════════════════════════════════ */
+.tw-banner {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 64px;
+  align-items: center;
+  background: var(--gray-900); border-radius: 16px;
+  padding: 64px; color: var(--white);
+}
+@media (max-width: 900px) { .tw-banner { grid-template-columns: 1fr; padding: 40px 32px; gap: 40px; } }
+.tw-banner .section-eyebrow { color: rgba(255,255,255,0.5); }
+.tw-banner .section-eyebrow::before { background: rgba(255,255,255,0.3); }
+.tw-banner h2 {
+  font-family: var(--font-display); font-size: 36px; font-weight: 500;
+  line-height: 1.2; margin-bottom: 16px;
+}
+.tw-banner h2 em { font-style: italic; color: var(--red); }
+.tw-banner p { font-size: 15px; color: rgba(255,255,255,0.6); line-height: 1.8; margin-bottom: 16px; }
+.tw-values {
+  display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px;
+}
+.tw-values span {
+  padding: 6px 16px; border-radius: 20px; font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.6);
+}
+.tw-right-items { display: flex; flex-direction: column; gap: 24px; }
+.tw-feature {
+  padding: 24px; border-radius: 10px;
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+}
+.tw-feature h4 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+.tw-feature p { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.7; margin:0; }
+
+/* ═══════════════════════════════════════════ */
+/* RESEARCH PAGE                              */
+/* ═══════════════════════════════════════════ */
+.research-hero {
+  padding: calc(var(--nav-h) + 80px) 0 80px;
+  border-bottom: 1px solid var(--gray-100);
+}
+.research-areas {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
+}
+@media (max-width: 900px) { .research-areas { grid-template-columns: 1fr; } }
+.research-card {
+  border: 1px solid var(--gray-100); border-radius: 12px; overflow: hidden;
+  transition: all 0.35s; cursor: default;
+}
+.research-card:hover {
+  border-color: var(--gray-300); transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+}
+.research-card-img {
+  height: 200px; background: var(--gray-50); display: flex;
+  align-items: center; justify-content: center; position: relative; overflow: hidden;
+}
+.research-card-img .icon-wrap {
+  width: 64px; height: 64px; border-radius: 16px; background: var(--red-light);
+  display: flex; align-items: center; justify-content: center;
+}
+.research-card-img .icon-wrap svg { width: 28px; height: 28px; color: var(--red); }
+.research-card-body { padding: 28px; }
+.research-tag {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase;
+  color: var(--red); margin-bottom: 10px;
+}
+.research-card h3 {
+  font-family: var(--font-display); font-size: 22px; font-weight: 600;
+  color: var(--gray-900); margin-bottom: 10px; line-height: 1.3;
+}
+.research-card p { font-size: 14px; color: var(--gray-500); line-height: 1.75; }
+
+/* Article list */
+.article-list { display: flex; flex-direction: column; gap: 0; }
+.article-item {
+  display: grid; grid-template-columns: auto 1fr auto; gap: 32px;
+  align-items: center; padding: 32px 0;
+  border-bottom: 1px solid var(--gray-100);
+  transition: all 0.3s;
+}
+@media (max-width: 768px) {
+  .article-item { grid-template-columns: 1fr; gap: 12px; }
+  .article-date { order: -1; }
+}
+.article-item:hover { padding-left: 12px; }
+.article-date {
+  font-size: 12px; color: var(--gray-400); font-weight: 500;
+  letter-spacing: 0.04em; white-space: nowrap;
+  min-width: 100px;
+}
+.article-item h4 {
+  font-size: 17px; font-weight: 600; color: var(--gray-900);
+  line-height: 1.4;
+}
+.article-item p { font-size: 14px; color: var(--gray-500); margin-top: 4px; }
+.article-arrow {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--gray-200); display: flex;
+  align-items: center; justify-content: center;
+  transition: all 0.3s;
+}
+.article-item:hover .article-arrow {
+  background: var(--red); border-color: var(--red);
+}
+.article-item:hover .article-arrow svg { color: var(--white); }
+.article-arrow svg { width: 14px; height: 14px; color: var(--gray-400); transition: color 0.3s; }
+
+/* ═══════════════════════════════════════════ */
+/* CONTACT PAGE                               */
+/* ═══════════════════════════════════════════ */
+.contact-hero {
+  padding: calc(var(--nav-h) + 80px) 0 80px;
+}
+.contact-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+  align-items: start;
+}
+@media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; gap: 48px; } }
+
+.form-group { margin-bottom: 24px; }
+.form-group label {
+  display: block; font-size: 12px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--gray-500); margin-bottom: 8px;
+}
+.form-group input, .form-group textarea, .form-group select {
+  width: 100%; padding: 14px 18px; border: 1px solid var(--gray-200);
+  border-radius: 8px; font-family: var(--font-body); font-size: 15px;
+  color: var(--gray-800); transition: border-color 0.25s;
+  background: var(--white); outline: none;
+}
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+  border-color: var(--red);
+}
+.form-group textarea { resize: vertical; min-height: 120px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
+.form-feedback {
+  margin-top: 12px; text-align: center; min-height: 20px;
+  font-size: 13px; color: var(--gray-500);
+}
+.form-feedback.success { color: #1a7a3a; }
+.form-feedback.error { color: var(--red); }
+
+.contact-info { padding-top: 8px; }
+.office-card {
+  padding: 28px; border: 1px solid var(--gray-100);
+  border-radius: 12px; margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+.office-card:hover { border-color: var(--gray-300); }
+.office-card h4 {
+  font-size: 14px; font-weight: 600; color: var(--gray-900);
+  margin-bottom: 8px; display: flex; align-items: center; gap: 8px;
+}
+.office-card h4::before {
+  content:''; width: 6px; height: 6px; background: var(--red); border-radius: 50%;
+}
+.office-card p { font-size: 14px; color: var(--gray-500); line-height: 1.75; }
+.legal-info {
+  margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--gray-100);
+}
+.legal-info p {
+  font-size: 12px; color: var(--gray-400); line-height: 1.8;
+}
+
+/* ═══════════════════════════════════════════ */
+/* FOOTER                                     */
+/* ═══════════════════════════════════════════ */
+.footer {
+  background: var(--gray-900); color: rgba(255,255,255,0.5);
+  padding: 48px 0;
+}
+.footer-inner {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 20px;
+}
+.footer p { font-size: 13px; }
+.footer-links { display: flex; gap: 32px; }
+.footer-links a {
+  font-size: 12px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase;
+  color: rgba(255,255,255,0.4); transition: color 0.25s;
+}
+.footer-links a:hover { color: var(--white); }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ NAVIGATION ═══════════ -->
+<nav class="nav" id="navbar">
+  <a href="#about" class="nav-brand" aria-label="Esscube Strategy Consultants home">
+    <img src="Esscube_Logo.png" alt="Esscube Strategy Consultants" class="nav-logo">
+  </a>
+  <div class="nav-links" id="navLinks">
+    <a href="#about" data-page="about" class="active">About Us</a>
+    <a href="#research" data-page="research">Research</a>
+    <a href="#contact" data-page="contact" class="nav-cta">Get in Touch</a>
+  </div>
+  <button type="button" class="hamburger" id="hamburger" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ABOUT US PAGE                              -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="page active" id="page-about">
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-bg">
+      <canvas id="heroMap" aria-hidden="true"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Esscube Strategy Consultants</div>
+      <h1>Where Strategy Meets<br>the <em>Human</em> Experience</h1>
+      <p class="hero-desc">We partner with boards and leadership teams to build people strategies that drive organisational performance, manage human capital risk, and unlock the full potential of your workforce.</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;">
+        <button class="btn-primary" onclick="navigate('contact')">
+          Start a Conversation
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </button>
+        <button class="btn-outline" onclick="navigate('research')">Our Research</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <section>
+    <div class="container">
+      <div class="about-intro reveal">
+        <div>
+          <div class="section-eyebrow">Who We Are</div>
+          <div class="section-title">A consulting practice built at the intersection of business strategy and human capital.</div>
+        </div>
+        <div>
+          <p>Esscube Strategy Consultants is a specialist advisory firm working exclusively in the people and culture domain. We bring analytical rigour and strategic depth to the challenges that matter most — how organisations attract, compensate, develop, and retain the talent that drives their competitive advantage.</p>
+          <p>Headquartered in Bengaluru with presence in Mumbai, we work with boards, CHROs, and leadership teams across industries. Our approach is rooted in data, shaped by research, and designed for measurable impact.</p>
+          <p>Our dedicated division, <strong style="color:var(--red)">Trusted Workplace</strong>, operates as a specialised practice focused on workplace culture assessment, people risk management, and organisational certification — helping companies build workplaces where people genuinely thrive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-eyebrow">Our Approach</div>
+        <div class="section-title">Three principles that shape<br>every engagement.</div>
+        <div class="section-subtitle">We believe people strategy is business strategy. Every framework we build, every policy we design, every compensation structure we recommend is anchored in your organisation's strategic objectives.</div>
+      </div>
+      <div class="philosophy-grid">
+        <div class="phil-card reveal">
+          <div class="phil-num">01</div>
+          <h3>Data-Led Insight</h3>
+          <p>We ground every recommendation in rigorous market data, proprietary benchmarks, and analytical frameworks. No assumptions — only evidence-based strategy built on real compensation surveys, attrition analytics, engagement metrics, and industry research.</p>
+        </div>
+        <div class="phil-card reveal">
+          <div class="phil-num">02</div>
+          <h3>Board-Level Rigour</h3>
+          <p>Our work is designed to withstand scrutiny at the highest levels of governance. From CEO compensation reviews to ESOP structuring, we bring the analytical precision and presentation quality that boards expect and stakeholders trust.</p>
+        </div>
+        <div class="phil-card reveal">
+          <div class="phil-num">03</div>
+          <h3>Implementation Focus</h3>
+          <p>Strategy without execution is academic. We design every framework, policy, and system with implementation in mind — accounting for organisational culture, change readiness, technology infrastructure, and the practical realities of rolling out people programmes at scale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capabilities -->
+  <section>
+    <div class="container">
+      <div class="reveal">
+        <div class="section-eyebrow">Capabilities</div>
+        <div class="section-title">The full spectrum of<br>people strategy advisory.</div>
+        <div class="section-subtitle">From the boardroom to the front line, we bring deep expertise across every dimension of human capital management.</div>
+      </div>
+      <div class="cap-grid reveal">
+        <div class="cap-item">
+          <h4>Salary Benchmarking Studies</h4>
+          <p>Comprehensive market compensation analysis across roles, levels, and industries. We design custom benchmarking frameworks that map your pay philosophy to real market data — covering base pay, variable compensation, benefits, and total rewards positioning.</p>
+        </div>
+        <div class="cap-item">
+          <h4>CEO Compensation &amp; Board Advisory</h4>
+          <p>Independent advisory to boards and nomination &amp; remuneration committees on executive compensation design, CEO performance frameworks, pay-for-performance alignment, and regulatory compliance under Companies Act and SEBI guidelines.</p>
+        </div>
+        <div class="cap-item">
+          <h4>Performance Management Systems</h4>
+          <p>Design and implementation of performance management architectures — from goal-setting frameworks and competency models to review processes and calibration mechanisms. We build systems that connect individual contribution to organisational strategy.</p>
+        </div>
+        <div class="cap-item">
+          <h4>Retention Strategy &amp; Planning</h4>
+          <p>Data-driven retention diagnostics that identify flight risk, attrition drivers, and critical talent segments. We develop targeted retention plans combining career architecture, compensation levers, engagement interventions, and stay incentive structures.</p>
+        </div>
+        <div class="cap-item">
+          <h4>ESOP Programme Design</h4>
+          <p>End-to-end design of employee stock option programmes — from scheme architecture and vesting schedules to valuation methodology, tax planning, and board-ready documentation. Tailored for startups through listed enterprises.</p>
+        </div>
+        <div class="cap-item">
+          <h4>Reward &amp; Recognition Programmes</h4>
+          <p>Strategic design of recognition ecosystems that reinforce culture, drive behaviours, and improve engagement. We build frameworks spanning peer recognition, milestone rewards, performance bonuses, and long-term incentive plans aligned to business cycles.</p>
+        </div>
+        <div class="cap-item">
+          <h4>HR Policy Development</h4>
+          <p>Comprehensive policy frameworks covering the entire employee lifecycle — from hiring and onboarding through conduct, leave, flexible working, grievance management, and separation. Designed for legal compliance, operational clarity, and cultural alignment.</p>
+        </div>
+        <div class="cap-item">
+          <h4>Board-Level Recruitment</h4>
+          <p>Executive search and selection advisory for board and C-suite appointments. We bring structured assessment methodologies, competency mapping, market intelligence, and governance best practices to leadership hiring at the highest levels.</p>
+        </div>
+        <div class="cap-item">
+          <h4>Training &amp; Development</h4>
+          <p>Capability building programmes designed around business outcomes. We develop training architectures, identify skill gaps through competency assessments, design learning pathways, and create leadership development frameworks that accelerate talent readiness.</p>
+        </div>
+        <div class="cap-item">
+          <h4>Workplace Culture Assessment</h4>
+          <p>Through our Trusted Workplace division, we offer rigorous workplace culture diagnostics, people risk assessments, and certification programmes that help organisations measure, benchmark, and transform their employee experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted Workplace Banner -->
+  <section>
+    <div class="container">
+      <div class="tw-banner reveal">
+        <div>
+          <div class="section-eyebrow">Our Division</div>
+          <h2>Trusted Workplace — Know Your People. Manage <em>People Risk.</em></h2>
+          <p>Trusted Workplace is Esscube's dedicated practice for organisational culture assessment and people risk management. We help companies understand the health of their workplace through structured diagnostics — and earn certification that signals their commitment to building environments where people thrive.</p>
+          <p>Because in the end, all we care about is people. And people are made of stardust.</p>
+          <div class="tw-values">
+            <span>Fairness</span><span>Growth</span><span>Learning</span><span>Pride</span><span>Empathy</span>
+          </div>
+        </div>
+        <div class="tw-right-items">
+          <div class="tw-feature">
+            <h4>Culture Diagnostics</h4>
+            <p>Proprietary assessment frameworks that measure organisational culture across dimensions of fairness, psychological safety, growth opportunity, and leadership trust.</p>
+          </div>
+          <div class="tw-feature">
+            <h4>People Risk Management</h4>
+            <p>Systematic identification and mitigation of human capital risks — from key-person dependency and succession gaps to compliance exposure and attrition vulnerabilities.</p>
+          </div>
+          <div class="tw-feature">
+            <h4>Workplace Certification</h4>
+            <p>A rigorous certification programme that benchmarks your workplace against research-backed standards and provides a credible signal of your commitment to employee experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- RESEARCH PAGE                              -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="page" id="page-research">
+
+  <div class="research-hero">
+    <div class="container">
+      <div class="section-eyebrow">Research &amp; Insights</div>
+      <div class="section-title" style="max-width:700px;">Rigorous thinking on the questions that shape the future of work.</div>
+      <div class="section-subtitle">Our research practice produces original insights at the intersection of compensation economics, organisational behaviour, and talent strategy. We publish to inform — not to sell.</div>
+    </div>
+  </div>
+
+  <!-- Research Focus Areas -->
+  <section>
+    <div class="container">
+      <div class="reveal">
+        <div class="section-eyebrow">Focus Areas</div>
+        <div class="section-title">Where we go deep.</div>
+        <div class="section-subtitle">Our research agenda is shaped by the questions our clients face and the gaps we see in conventional thinking about people strategy.</div>
+      </div>
+      <div class="research-areas reveal">
+        <div class="research-card">
+          <div class="research-card-img">
+            <div class="icon-wrap">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>
+            </div>
+          </div>
+          <div class="research-card-body">
+            <div class="research-tag">Compensation</div>
+            <h3>The Economics of Pay Equity</h3>
+            <p>Examining how structural compensation design — from pay bands to variable pay ratios — impacts equity outcomes, retention differentials, and organisational performance across sectors.</p>
+          </div>
+        </div>
+        <div class="research-card">
+          <div class="research-card-img">
+            <div class="icon-wrap">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"/></svg>
+            </div>
+          </div>
+          <div class="research-card-body">
+            <div class="research-tag">Culture</div>
+            <h3>Measuring What Matters in Workplace Culture</h3>
+            <p>Developing and validating diagnostic instruments that capture the dimensions of organisational culture most predictive of business performance, innovation capacity, and talent retention.</p>
+          </div>
+        </div>
+        <div class="research-card">
+          <div class="research-card-img">
+            <div class="icon-wrap">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z"/></svg>
+            </div>
+          </div>
+          <div class="research-card-body">
+            <div class="research-tag">Governance</div>
+            <h3>Board Effectiveness &amp; Executive Pay</h3>
+            <p>Analysing the relationship between board governance practices, executive compensation structures, and long-term shareholder value creation in listed Indian enterprises.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insights / Publications -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-eyebrow">Perspectives</div>
+        <div class="section-title">Latest thinking.</div>
+        <div class="section-subtitle">Selected perspectives from our research and advisory practice.</div>
+      </div>
+      <div class="article-list reveal">
+        <div class="article-item">
+          <div class="article-date">March 2026</div>
+          <div>
+            <h4>Why Salary Benchmarking Without Context is Dangerous</h4>
+            <p>On the limitations of market data when compensation philosophy is undefined.</p>
+          </div>
+          <div class="article-arrow"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </div>
+        <div class="article-item">
+          <div class="article-date">February 2026</div>
+          <div>
+            <h4>The Hidden Cost of Treating Retention as an HR Problem</h4>
+            <p>Why attrition is a strategy problem, not a people operations problem.</p>
+          </div>
+          <div class="article-arrow"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </div>
+        <div class="article-item">
+          <div class="article-date">January 2026</div>
+          <div>
+            <h4>ESOPs in Indian Startups: Designing for Retention, Not Just Tax Efficiency</h4>
+            <p>A framework for structuring option programmes that actually retain talent through the growth phase.</p>
+          </div>
+          <div class="article-arrow"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </div>
+        <div class="article-item">
+          <div class="article-date">December 2025</div>
+          <div>
+            <h4>Performance Management Is Not Performance Measurement</h4>
+            <p>Rethinking the purpose of performance systems beyond ratings and bell curves.</p>
+          </div>
+          <div class="article-arrow"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </div>
+        <div class="article-item">
+          <div class="article-date">November 2025</div>
+          <div>
+            <h4>What Boards Get Wrong About CEO Pay Reviews</h4>
+            <p>Common pitfalls in NRC processes and how independent advisory changes the outcome.</p>
+          </div>
+          <div class="article-arrow"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </div>
+        <div class="article-item">
+          <div class="article-date">October 2025</div>
+          <div>
+            <h4>People Risk Is Business Risk: A Framework for Boards</h4>
+            <p>Introducing a structured approach to identifying, quantifying, and mitigating human capital risk at the governance level.</p>
+          </div>
+          <div class="article-arrow"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- CONTACT PAGE                               -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="page" id="page-contact">
+
+  <div class="contact-hero">
+    <div class="container">
+      <div class="section-eyebrow">Get in Touch</div>
+      <div class="section-title" style="max-width:600px;">Let's discuss how we can<br>work together.</div>
+      <div class="section-subtitle">Whether you're exploring a specific engagement or simply want to understand how we can help, we'd welcome the conversation.</div>
+    </div>
+  </div>
+
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="reveal">
+          <form id="contactForm" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input id="firstName" name="first_name" type="text" placeholder="Your first name" autocomplete="given-name" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" name="last_name" type="text" placeholder="Your last name" autocomplete="family-name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@company.com" autocomplete="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="+91 " autocomplete="tel">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="organisation">Organisation</label>
+              <input id="organisation" name="organisation" type="text" placeholder="Your company name" autocomplete="organization">
+            </div>
+            <div class="form-group">
+              <label for="interest">Area of Interest</label>
+              <select id="interest" name="interest" required>
+                <option value="" disabled selected>Select a service area</option>
+                <option>Salary Benchmarking</option>
+                <option>CEO Compensation & Board Advisory</option>
+                <option>Performance Management</option>
+                <option>Retention Strategy</option>
+                <option>ESOP Programme Design</option>
+                <option>Reward & Recognition</option>
+                <option>HR Policy Development</option>
+                <option>Board-Level Recruitment</option>
+                <option>Training & Development</option>
+                <option>Trusted Workplace Certification</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us briefly about what you're looking to accomplish…"></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+              Send Message
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </button>
+            <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-info reveal">
+          <div class="office-card">
+            <h4>Registered Office — Bengaluru</h4>
+            <p>2nd Floor, Building #235<br>13th Cross Road, Indira Nagar 2nd Stage<br>Hoysala Nagar, Bengaluru — 560038<br>Karnataka, India</p>
+          </div>
+          <div class="office-card">
+            <h4>Mumbai Office</h4>
+            <p>A101, Lodha Imperia<br>Tank Road, Bhandup West<br>Mumbai — 400078<br>Maharashtra, India</p>
+          </div>
+
+          <div class="legal-info">
+            <p><strong style="color:var(--gray-600);">Esscube Strategy Consultants Private Limited</strong></p>
+            <p style="margin-top:8px;">CIN: U70200KA2023PTC173656<br>GST: 29AAHCE5646E1ZH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <p>&copy; 2026 Esscube Strategy Consultants Private Limited. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#" data-page="about">About</a>
+        <a href="#" data-page="research">Research</a>
+        <a href="#" data-page="contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- SCRIPTS                                    -->
+<!-- ═══════════════════════════════════════════ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+const pageTitles = {
+  about: 'About Us | Esscube Strategy Consultants',
+  research: 'Research | Esscube Strategy Consultants',
+  contact: 'Contact | Esscube Strategy Consultants'
+};
+const validPages = new Set(Object.keys(pageTitles));
+const navLinks = document.getElementById('navLinks');
+const hamburger = document.getElementById('hamburger');
+const formFeedback = document.getElementById('formFeedback');
+
+/* ── Navigation ── */
+function getRequestedPage() {
+  const hash = window.location.hash.replace('#', '');
+  return validPages.has(hash) ? hash : 'about';
+}
+
+function setPageTitle(page) {
+  document.title = pageTitles[page] || pageTitles.about;
+}
+
+function setMenuState(isOpen) {
+  navLinks.classList.toggle('open', isOpen);
+  hamburger.setAttribute('aria-expanded', String(isOpen));
+}
+
+function navigate(page, options = {}) {
+  const nextPage = validPages.has(page) ? page : 'about';
+  const { updateHistory = true, scrollTop = true } = options;
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-' + nextPage).classList.add('active');
+  document.querySelectorAll('.nav-links a[data-page]').forEach(a => {
+    a.classList.toggle('active', a.dataset.page === nextPage);
+  });
+  setPageTitle(nextPage);
+  setMenuState(false);
+  if (updateHistory) history.pushState({ page: nextPage }, '', '#' + nextPage);
+  if (scrollTop) window.scrollTo({ top: 0, behavior: 'smooth' });
+  checkReveals();
+}
+document.querySelectorAll('[data-page]').forEach(a => {
+  a.addEventListener('click', e => { e.preventDefault(); navigate(a.dataset.page); });
+});
+document.querySelector('.nav-brand').addEventListener('click', e => {
+  e.preventDefault();
+  navigate('about');
+});
+hamburger.addEventListener('click', () => {
+  setMenuState(!navLinks.classList.contains('open'));
+});
+window.addEventListener('popstate', () => {
+  navigate(getRequestedPage(), { updateHistory: false, scrollTop: false });
+});
+
+/* ── Scroll effects ── */
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
+  checkReveals();
+});
+function checkReveals() {
+  setTimeout(() => {
+    document.querySelectorAll('.reveal').forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 60) el.classList.add('visible');
+    });
+  }, 50);
+}
+checkReveals();
+
+/* ── Form submit ── */
+function handleSubmit(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('button[type=submit]');
+  formFeedback.textContent = 'Thank you. Your message has been captured in this preview.';
+  formFeedback.className = 'form-feedback success';
+  btn.innerHTML = 'Message Sent ✓';
+  btn.style.background = '#1a7a3a';
+  setTimeout(() => {
+    btn.innerHTML = 'Send Message <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>';
+    btn.style.background = '';
+    e.target.reset();
+    formFeedback.textContent = '';
+    formFeedback.className = 'form-feedback';
+  }, 3000);
+}
+
+/* ═══════════════════════════════════════════ */
+/* HERO MAP (D3 + Canvas pulse animation)     */
+/* ═══════════════════════════════════════════ */
+const mapCanvas = document.getElementById('heroMap');
+if (mapCanvas && mapCanvas.getContext && window.d3 && window.topojson) {
+  const mCtx = mapCanvas.getContext('2d');
+  const mdpr = window.devicePixelRatio || 1;
+  let mW, mH, mProjection, mPath;
+
+  const mapCities = [
+    { name:'London',         lon:-0.118,   lat:51.509  },
+    { name:'New Delhi',      lon:77.209,   lat:28.614  },
+    { name:'Tokyo',          lon:139.692,  lat:35.690  },
+    { name:'Singapore',      lon:103.820,  lat:1.352   },
+    { name:'Moscow',         lon:37.618,   lat:55.751  },
+    { name:'Johannesburg',   lon:28.048,   lat:-26.204 },
+    { name:'Rio de Janeiro', lon:-43.173,  lat:-22.907 },
+    { name:'New York',       lon:-74.006,  lat:40.713  },
+    { name:'San Francisco',  lon:-122.419, lat:37.775  },
+  ];
+
+  function setupMap() {
+    const hero = mapCanvas.parentElement;
+    mW = hero.clientWidth; mH = hero.clientHeight;
+    mapCanvas.width = mW * mdpr; mapCanvas.height = mH * mdpr;
+    mapCanvas.style.width = mW + 'px'; mapCanvas.style.height = mH + 'px';
+    mCtx.setTransform(mdpr, 0, 0, mdpr, 0, 0);
+
+    mProjection = d3.geoNaturalEarth1()
+      .scale(Math.min(mW, mH) * 0.28)
+      .translate([mW / 2, mH / 2 + 20])
+      .precision(0.1);
+
+    mPath = d3.geoPath().projection(mProjection).context(mCtx);
+  }
+  setupMap();
+
+  const worldUrl = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
+  let worldData = null;
+  let mt = 0;
+
+  d3.json(worldUrl).then(world => {
+    const geo = world.objects.countries;
+    geo.geometries = geo.geometries.filter(g => g.id !== '010');
+    worldData = {
+      land: topojson.merge(world, geo.geometries),
+      borders: topojson.mesh(world, geo, (a, b) => a !== b),
+      graticule: d3.geoGraticule().stepMinor([20, 20]).extent([[-180, -58], [180, 85]])()
+    };
+    animateMap();
+  }).catch(() => { animateMap(); });
+
+  function animateMap() {
+    mt += 0.004;
+    mCtx.clearRect(0, 0, mW, mH);
+
+    if (worldData) {
+      /* Graticule */
+      mCtx.beginPath();
+      mPath(worldData.graticule);
+      mCtx.strokeStyle = 'rgba(0,0,0,0.03)';
+      mCtx.lineWidth = 0.3;
+      mCtx.stroke();
+
+      /* Land */
+      mCtx.beginPath();
+      mPath(worldData.land);
+      mCtx.fillStyle = '#ebebeb';
+      mCtx.fill();
+      mCtx.strokeStyle = '#e0e0e0';
+      mCtx.lineWidth = 0.4;
+      mCtx.stroke();
+
+      /* Borders */
+      mCtx.beginPath();
+      mPath(worldData.borders);
+      mCtx.strokeStyle = '#e4e4e4';
+      mCtx.lineWidth = 0.3;
+      mCtx.stroke();
+    }
+
+    /* City pulses */
+    mapCities.forEach((city, ci) => {
+      const pos = mProjection([city.lon, city.lat]);
+      if (!pos) return;
+      const [cx, cy] = pos;
+
+      for (let ring = 0; ring < 8; ring++) {
+        const r = ((mt * 40 + ring * 45 + ci * 30) % 360);
+        if (r < 0) continue;
+        const alpha = 0.18 * (1 - r / 360);
+        if (alpha <= 0) continue;
+        mCtx.strokeStyle = `rgba(150,150,150,${alpha})`;
+        mCtx.lineWidth = 0.8;
+        mCtx.beginPath();
+        mCtx.arc(cx, cy, r, 0, Math.PI * 2);
+        mCtx.stroke();
+      }
+
+      const pulse = Math.sin(mt * 2 + ci) * 0.5 + 0.5;
+      mCtx.fillStyle = `rgba(120,120,120,${0.15 + pulse * 0.2})`;
+      mCtx.beginPath();
+      mCtx.arc(cx, cy, 3 + pulse * 2, 0, Math.PI * 2);
+      mCtx.fill();
+
+      mCtx.font = "500 10px 'DM Sans', sans-serif";
+      mCtx.fillStyle = `rgba(100,100,100,${0.5 + pulse * 0.15})`;
+      mCtx.textAlign = 'left';
+      mCtx.textBaseline = 'middle';
+      mCtx.fillText(city.name, cx + 10, cy - 1);
+    });
+
+    /* Dashed connections */
+    mCtx.setLineDash([4, 6]);
+    for (let i = 0; i < mapCities.length; i++) {
+      for (let j = i + 1; j < mapCities.length; j++) {
+        const p1 = mProjection([mapCities[i].lon, mapCities[i].lat]);
+        const p2 = mProjection([mapCities[j].lon, mapCities[j].lat]);
+        if (!p1 || !p2) continue;
+        const dx = p1[0] - p2[0], dy = p1[1] - p2[1];
+        if (Math.sqrt(dx * dx + dy * dy) > 350) continue;
+        mCtx.strokeStyle = 'rgba(170,170,170,0.06)';
+        mCtx.lineWidth = 0.5;
+        mCtx.beginPath();
+        mCtx.moveTo(p1[0], p1[1]);
+        mCtx.lineTo(p2[0], p2[1]);
+        mCtx.stroke();
+      }
+    }
+    mCtx.setLineDash([]);
+
+    /* Center fade for text readability */
+    const grad = mCtx.createRadialGradient(mW * 0.3, mH * 0.5, 0, mW * 0.3, mH * 0.5, Math.max(mW, mH) * 0.42);
+    grad.addColorStop(0, 'rgba(255,255,255,0.92)');
+    grad.addColorStop(0.4, 'rgba(255,255,255,0.6)');
+    grad.addColorStop(1, 'rgba(255,255,255,0)');
+    mCtx.fillStyle = grad;
+    mCtx.fillRect(0, 0, mW, mH);
+
+    requestAnimationFrame(animateMap);
+  }
+
+  window.addEventListener('resize', () => { setupMap(); });
+}
+navigate(getRequestedPage(), { updateHistory: false, scrollTop: false });
+</script>
+</body>
+</html>
